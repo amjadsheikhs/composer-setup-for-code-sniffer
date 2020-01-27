@@ -12,6 +12,7 @@
             ]  
         }
 
-3. Run following commands in order:
-    `composer require --dev squizlabs/php_codesniffer`
-    `composer run-script post-install-cmd` 
+3. Run following commands in order:  
+
+        `composer require --dev squizlabs/php_codesniffer`  
+        `composer run-script post-install-cmd` 
