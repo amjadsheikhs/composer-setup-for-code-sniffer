@@ -2,7 +2,7 @@
 
 ## Do the following steps in order:
 
-1. Copy git-hooks/pre-commit from this repository to the root directory of your git repository
+1. Copy `git-hooks/pre-commit` from this repository to the root directory of your git repository
 
 2. Inside composer.json file, add a new event to `post-install-cmd` inside `scripts` like as under:
 
