@@ -9,7 +9,7 @@
 
     "scripts": {
         "post-install-cmd": [
-            "@php -r \"copy('git-hooks/pre-commit', '.git/hooks/pre-commit');\""
+            "@php -r \"copy('git-hooks/pre-commit', '.git/hooks/pre-commit') && (file_exists('phpcs.xml') || copy('phpcs.xml.example', 'phpcs.xml'));\""
         ]
     }
     
