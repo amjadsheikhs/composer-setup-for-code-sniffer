@@ -2,7 +2,7 @@
 
 ## Do the following steps in order:
 
-1. copy git-hooks/pre-commit from this repository to the root directory of your git repository
+1. Copy git-hooks/pre-commit from this repository to the root directory of your git repository
 
 2. Inside composer.json file, add a new event to `post-install-cmd` inside `scripts` like as under:
 
@@ -12,6 +12,6 @@
             ]  
         }
 
-3. Installation: Run following commands in order:
+3. Run following commands in order:
     `composer require --dev squizlabs/php_codesniffer`
     `composer run-script post-install-cmd` 
